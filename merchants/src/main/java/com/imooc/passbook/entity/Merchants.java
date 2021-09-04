@@ -35,7 +35,7 @@ public class Merchants {
 
     // merchants business license
     @Basic
-    @Column(name = "business_license_url"， nullable = false)
+    @Column(name = "business_license_url", nullable = false)
     private String businessLicense;
 
     // merchants phone
