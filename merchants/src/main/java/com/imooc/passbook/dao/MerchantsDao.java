@@ -19,5 +19,5 @@ public interface MerchantsDao extends JpaRepository<Merchants, Integer> {
      * @param name merchants name
      * @return {@link Merchants}
      */
-    static Merchants findByName(String name);
+    Merchants findByName(String name);
 }

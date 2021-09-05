@@ -1,0 +1,29 @@
+# previous codes for file "application.properties"
+#spring.datasource.url=jdbc:mysql://127.0.0.1:3306/passbook
+#spring.datasource.username=root
+#spring.datasource.password=yue364915113
+#spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+spring:
+  application:
+    name: ImoocMerchants #整体应用的名称
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/passbook?autoReconnect=true
+    username: root
+    password: yue364915113
+    driver-class-name: com.mysql.jdbc.Driver
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      group-id: passbook
+    listener:
+      concurrency: 4
+
+server:
+  port: 9527
+
+logging:
+  level:
+    root: debug
+  file:
+    name: imooc-merchants.log
