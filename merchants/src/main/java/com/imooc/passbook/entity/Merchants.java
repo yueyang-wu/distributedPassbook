@@ -20,7 +20,8 @@ public class Merchants {
 
     // merchants id, primary key
     @Id //primary key
-    @GeneratedValue // auto generate value
+    // https://www.cnblogs.com/hongchengshise/p/10612301.html (GenerationType explanation)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // auto generate value
     @Column(name = "id", nullable = false)
     private Integer id;
 

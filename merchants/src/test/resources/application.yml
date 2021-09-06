@@ -24,6 +24,6 @@ server:
 
 logging:
   level:
-    root: debug
+    root: error
   file:
     name: imooc-merchants.log
