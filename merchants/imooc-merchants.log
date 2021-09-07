@@ -16105,3 +16105,642 @@ Content-Length: 178
 2021-09-06 22:55:10.660 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
 2021-09-06 22:55:40.142 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2021-09-06 22:55:40.144 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:56:10.148 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:56:10.149 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:56:10.686 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994170685 sessioncount 0
+2021-09-06 22:56:10.686 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 22:56:40.152 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:56:40.153 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:57:10.157 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:57:10.158 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:57:10.691 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994230691 sessioncount 0
+2021-09-06 22:57:10.692 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 22:57:40.165 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:57:40.168 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:57:56.006 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[MetadataRequestTopic(name='merchants-template')], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 22:57:56.009 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=5) and timeout 30000 to node 1: {topics=[{name=merchants-template,_tagged_fields={}}],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 22:57:56.015 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=5): org.apache.kafka.common.requests.MetadataResponse@7eea44c2
+2021-09-06 22:57:56.017 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updating last seen epoch for partition merchants-template-0 from 0 to epoch 0 from new metadata
+2021-09-06 22:57:56.018 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 3 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[PartitionMetadata(error=NONE, partition=merchants-template-0, leader=Optional[1], leaderEpoch=Optional[0], replicas=1, isr=1, offlineReplicas=)], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 22:58:10.174 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:58:10.176 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:58:10.709 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994290708 sessioncount 0
+2021-09-06 22:58:10.709 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 22:58:40.182 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:58:40.182 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:59:10.189 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:59:10.189 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 22:59:10.733 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994350733 sessioncount 0
+2021-09-06 22:59:10.733 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 22:59:40.193 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 22:59:40.193 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:00:10.195 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:00:10.195 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:00:10.764 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994410764 sessioncount 0
+2021-09-06 23:00:10.765 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:00:40.201 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:00:40.201 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:01:10.207 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:01:10.208 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:01:10.791 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994470791 sessioncount 0
+2021-09-06 23:01:10.792 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:01:40.213 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:01:40.213 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:02:10.215 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:02:10.217 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:02:10.818 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994530817 sessioncount 0
+2021-09-06 23:02:10.818 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:02:26.067 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -1 disconnected.
+2021-09-06 23:02:26.076 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[MetadataRequestTopic(name='merchants-template')], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:02:26.077 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=6) and timeout 30000 to node 1: {topics=[{name=merchants-template,_tagged_fields={}}],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:02:26.079 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=6): org.apache.kafka.common.requests.MetadataResponse@7e4486d9
+2021-09-06 23:02:26.079 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] o.a.k.c.p.internals.ProducerMetadata     : [Producer clientId=producer-1] Removing unused topic merchants-template from the metadata list, expiryMs 1630994345387 now 1630994546079
+2021-09-06 23:02:26.079 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 4 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:02:40.222 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:02:40.224 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:03:10.228 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:03:10.230 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:03:10.844 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994590844 sessioncount 0
+2021-09-06 23:03:10.845 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:03:40.232 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:03:40.233 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:04:10.238 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:04:10.240 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:04:10.873 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994650873 sessioncount 0
+2021-09-06 23:04:10.873 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:04:40.245 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:04:40.247 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:05:10.248 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:05:10.250 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:05:10.893 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994710893 sessioncount 0
+2021-09-06 23:05:10.893 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:05:40.256 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:05:40.257 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:06:10.259 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:06:10.259 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:06:10.902 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994770902 sessioncount 0
+2021-09-06 23:06:10.902 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:06:40.265 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:06:40.267 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:07:10.270 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:07:10.272 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:07:10.915 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994830914 sessioncount 0
+2021-09-06 23:07:10.916 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:07:26.084 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:07:26.085 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=7) and timeout 30000 to node 1: {topics=[],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:07:26.089 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=7): org.apache.kafka.common.requests.MetadataResponse@e63a614
+2021-09-06 23:07:26.091 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 5 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:07:40.274 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:07:40.274 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:08:10.276 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:08:10.276 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:08:10.942 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994890942 sessioncount 0
+2021-09-06 23:08:10.942 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:08:40.282 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:08:40.284 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:09:10.286 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:09:10.287 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:09:10.957 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630994950956 sessioncount 0
+2021-09-06 23:09:10.957 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:09:40.293 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:09:40.295 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:10:10.301 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:10:10.303 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:10:10.972 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995010972 sessioncount 0
+2021-09-06 23:10:10.973 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:10:40.309 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:10:40.312 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:11:10.316 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:11:10.317 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:11:10.997 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995070997 sessioncount 0
+2021-09-06 23:11:10.998 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:11:40.322 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:11:40.322 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:12:05.506 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7915c8d7: (connection has passed maxLifetime)
+2021-09-06 23:12:05.538 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:05.543 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7da6368b
+2021-09-06 23:12:10.327 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:12:10.327 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:12:11.025 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995131025 sessioncount 0
+2021-09-06 23:12:11.025 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:12:11.205 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2fce963a: (connection has passed maxLifetime)
+2021-09-06 23:12:11.221 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:11.223 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6707bef8
+2021-09-06 23:12:14.222 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@193a3798: (connection has passed maxLifetime)
+2021-09-06 23:12:14.237 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:14.241 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@72841b7
+2021-09-06 23:12:19.689 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2232dacc: (connection has passed maxLifetime)
+2021-09-06 23:12:19.703 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:19.706 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@27bdd828
+2021-09-06 23:12:23.264 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1ed71d5b: (connection has passed maxLifetime)
+2021-09-06 23:12:23.286 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:23.288 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@47922767
+2021-09-06 23:12:23.691 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@12b63f9f: (connection has passed maxLifetime)
+2021-09-06 23:12:23.707 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:23.709 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43dc1c44
+2021-09-06 23:12:23.816 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@44219904: (connection has passed maxLifetime)
+2021-09-06 23:12:23.832 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:23.834 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@33555a86
+2021-09-06 23:12:26.093 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:12:26.093 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=8) and timeout 30000 to node 1: {topics=[],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:12:26.096 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=8): org.apache.kafka.common.requests.MetadataResponse@5a788079
+2021-09-06 23:12:26.096 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 6 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:12:40.332 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:12:40.333 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:12:44.290 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@46531b27: (connection has passed maxLifetime)
+2021-09-06 23:12:44.306 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:44.308 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5c3b7244
+2021-09-06 23:12:53.663 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7ef8e214: (connection has passed maxLifetime)
+2021-09-06 23:12:53.679 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:53.681 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6eaeb167
+2021-09-06 23:12:57.420 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1a99e725: (connection has passed maxLifetime)
+2021-09-06 23:12:57.436 DEBUG 33027 --- [HikariPool-1 connection adder] jdk.event.security                       :  TLSHandshake: 127.0.0.1:3306, TLSv1.2, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, 181080745
+2021-09-06 23:12:57.438 DEBUG 33027 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@e814e28
+2021-09-06 23:13:10.335 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:13:10.337 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:13:11.051 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995191050 sessioncount 0
+2021-09-06 23:13:11.051 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:13:40.341 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:13:40.342 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:14:10.344 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:14:10.344 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:14:11.079 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995251079 sessioncount 0
+2021-09-06 23:14:11.079 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:14:40.350 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:14:40.352 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:15:10.355 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:15:10.355 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:15:11.098 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995311098 sessioncount 0
+2021-09-06 23:15:11.098 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:15:40.361 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:15:40.362 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:16:10.367 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:16:10.368 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:16:11.127 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995371127 sessioncount 0
+2021-09-06 23:16:11.128 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:16:40.369 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:16:40.370 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:17:10.372 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:17:10.374 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:17:11.146 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995431146 sessioncount 0
+2021-09-06 23:17:11.147 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:17:26.099 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:17:26.100 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=9) and timeout 30000 to node 1: {topics=[],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:17:26.104 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=9): org.apache.kafka.common.requests.MetadataResponse@4d1fce84
+2021-09-06 23:17:26.105 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 7 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:17:40.380 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:17:40.380 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:18:10.382 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:18:10.383 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:18:11.165 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995491165 sessioncount 0
+2021-09-06 23:18:11.165 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:18:40.385 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:18:40.385 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:19:10.391 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:19:10.394 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:19:11.194 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995551193 sessioncount 0
+2021-09-06 23:19:11.194 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:19:40.399 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:19:40.399 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:20:10.401 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:20:10.402 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:20:11.210 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995611210 sessioncount 0
+2021-09-06 23:20:11.210 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:20:40.408 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:20:40.408 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:21:10.412 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:21:10.412 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:21:11.232 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995671232 sessioncount 0
+2021-09-06 23:21:11.233 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:21:40.415 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:21:40.417 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:22:10.403 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:22:10.403 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:22:11.235 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995731235 sessioncount 0
+2021-09-06 23:22:11.235 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:22:26.108 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:22:26.109 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=10) and timeout 30000 to node 1: {topics=[],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:22:26.111 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=10): org.apache.kafka.common.requests.MetadataResponse@1737ebb0
+2021-09-06 23:22:26.111 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 8 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:22:40.381 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:22:40.381 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:23:10.378 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:23:10.380 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:23:11.225 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995791224 sessioncount 0
+2021-09-06 23:23:11.225 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:23:40.385 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:23:40.387 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:24:10.388 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:24:10.388 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:24:11.242 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995851242 sessioncount 0
+2021-09-06 23:24:11.242 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:24:40.390 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:24:40.391 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:25:10.397 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:25:10.397 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:25:11.258 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995911257 sessioncount 0
+2021-09-06 23:25:11.258 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:25:40.402 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:25:40.403 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:26:10.407 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:26:10.408 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:26:11.274 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630995971274 sessioncount 0
+2021-09-06 23:26:11.275 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:26:40.413 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:26:40.414 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:27:10.414 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:27:10.414 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:27:11.293 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996031293 sessioncount 0
+2021-09-06 23:27:11.294 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:27:26.114 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:27:26.115 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=11) and timeout 30000 to node 1: {topics=[],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:27:26.122 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=11): org.apache.kafka.common.requests.MetadataResponse@477ac44
+2021-09-06 23:27:26.123 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 9 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:27:40.418 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:27:40.418 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:28:10.422 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:28:10.422 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:28:11.313 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996091313 sessioncount 0
+2021-09-06 23:28:11.314 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:28:40.427 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:28:40.429 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:29:10.431 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:29:10.433 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:29:11.332 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996151332 sessioncount 0
+2021-09-06 23:29:11.332 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:29:40.435 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:29:40.435 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:30:10.440 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:30:10.441 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:30:11.354 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996211354 sessioncount 0
+2021-09-06 23:30:11.354 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:30:40.446 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:30:40.446 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:31:10.446 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:31:10.447 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:31:11.369 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996271368 sessioncount 0
+2021-09-06 23:31:11.369 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:31:40.452 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:31:40.454 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:32:10.457 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:32:10.458 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:32:11.390 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996331390 sessioncount 0
+2021-09-06 23:32:11.391 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:32:26.124 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:32:26.126 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=12) and timeout 30000 to node 1: {topics=[],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:32:26.128 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=12): org.apache.kafka.common.requests.MetadataResponse@1a928ffb
+2021-09-06 23:32:26.128 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 10 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:32:40.461 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:32:40.462 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:33:10.464 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:33:10.465 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:33:11.411 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996391411 sessioncount 0
+2021-09-06 23:33:11.412 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:33:40.469 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:33:40.470 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:34:10.474 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:34:10.475 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:34:11.423 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996451423 sessioncount 0
+2021-09-06 23:34:11.424 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:34:40.475 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:34:40.476 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:35:10.479 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:35:10.482 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:35:11.445 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996511445 sessioncount 0
+2021-09-06 23:35:11.446 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:35:40.484 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:35:40.484 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:36:10.489 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:36:10.490 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:36:11.468 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996571468 sessioncount 0
+2021-09-06 23:36:11.468 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:36:40.490 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:36:40.491 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:37:10.496 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:37:10.496 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:37:11.491 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996631491 sessioncount 0
+2021-09-06 23:37:11.492 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:37:26.131 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node 192.168.1.8:9092 (id: 1 rack: null)
+2021-09-06 23:37:26.131 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Sending METADATA request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=13) and timeout 30000 to node 1: {topics=[],allow_auto_topic_creation=true,include_cluster_authorized_operations=false,include_topic_authorized_operations=false,_tagged_fields={}}
+2021-09-06 23:37:26.132 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Received METADATA response from node 1 for request with header RequestHeader(apiKey=METADATA, apiVersion=9, clientId=producer-1, correlationId=13): org.apache.kafka.common.requests.MetadataResponse@29ca09c3
+2021-09-06 23:37:26.133 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Updated cluster metadata updateVersion 11 to MetadataCache{clusterId='GLPJz5WETpC42xfhH-abPA', nodes={1=192.168.1.8:9092 (id: 1 rack: null)}, partitions=[], controller=192.168.1.8:9092 (id: 1 rack: null)}
+2021-09-06 23:37:40.499 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:37:40.499 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:38:10.502 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:38:10.504 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:38:11.518 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996691518 sessioncount 0
+2021-09-06 23:38:11.518 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:38:40.507 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:38:40.508 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:39:10.509 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:39:10.510 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:39:11.536 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996751536 sessioncount 0
+2021-09-06 23:39:11.536 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:39:40.513 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:39:40.514 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:40:10.514 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:40:10.516 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:40:11.550 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996811549 sessioncount 0
+2021-09-06 23:40:11.550 DEBUG 33027 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-09-06 23:40:40.520 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:40:40.522 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:41:10.524 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:41:10.525 DEBUG 33027 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-09-06 23:41:11.561 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1630996871561 sessioncount 0
+2021-09-06 23:41:11.561 DEBUG 33027 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-09-06 23:41:13.581 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-09-06 23:41:13.585 DEBUG 33027 --- [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@528c868, started on Mon Sep 06 22:12:40 PDT 2021
+2021-09-06 23:41:13.586 DEBUG 33027 --- [SpringApplicationShutdownHook] ySourcesPropertyResolver$DefaultResolver : Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2021-09-06 23:41:13.600 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2021-09-06 23:41:13.616 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2021-09-06 23:41:13.616 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2021-09-06 23:41:13.690 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2021-09-06 23:41:13.691 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483547
+2021-09-06 23:41:13.692 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2021-09-06 23:41:13.693 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2021-09-06 23:41:13.696 DEBUG 33027 --- [SpringApplicationShutdownHook] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2021-09-06 23:41:13.698  INFO 33027 --- [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2021-09-06 23:41:13.698 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] o.a.k.clients.producer.internals.Sender  : [Producer clientId=producer-1] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2021-09-06 23:41:13.708 DEBUG 33027 --- [kafka-producer-network-thread | producer-1] o.a.k.clients.producer.internals.Sender  : [Producer clientId=producer-1] Shutdown of Kafka producer I/O thread has completed.
+2021-09-06 23:41:13.710  INFO 33027 --- [SpringApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2021-09-06 23:41:13.710  INFO 33027 --- [SpringApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-09-06 23:41:13.710  INFO 33027 --- [SpringApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2021-09-06 23:41:13.711  INFO 33027 --- [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-1 unregistered
+2021-09-06 23:41:13.711 DEBUG 33027 --- [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Kafka producer has been closed
+2021-09-06 23:41:13.714  INFO 33027 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 23:41:13.715 DEBUG 33027 --- [SpringApplicationShutdownHook] o.hibernate.internal.SessionFactoryImpl  : HHH000031: Closing
+2021-09-06 23:41:13.718 DEBUG 33027 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@643468d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@4438b862]
+2021-09-06 23:41:13.724 DEBUG 33027 --- [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2021-09-06 23:41:13.725 DEBUG 33027 --- [SpringApplicationShutdownHook] o.h.b.r.i.BootstrapServiceRegistryImpl   : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2021-09-06 23:41:13.725  INFO 33027 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-06 23:41:13.726 DEBUG 33027 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-09-06 23:41:13.732 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7da6368b: (connection evicted)
+2021-09-06 23:41:13.737 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6707bef8: (connection evicted)
+2021-09-06 23:41:13.738 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@72841b7: (connection evicted)
+2021-09-06 23:41:13.739 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@27bdd828: (connection evicted)
+2021-09-06 23:41:13.740 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@47922767: (connection evicted)
+2021-09-06 23:41:13.741 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@43dc1c44: (connection evicted)
+2021-09-06 23:41:13.742 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@33555a86: (connection evicted)
+2021-09-06 23:41:13.742 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5c3b7244: (connection evicted)
+2021-09-06 23:41:13.743 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6eaeb167: (connection evicted)
+2021-09-06 23:41:13.744 DEBUG 33027 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@e814e28: (connection evicted)
+2021-09-06 23:41:13.744 DEBUG 33027 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-09-06 23:41:13.745  INFO 33027 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-06 23:41:17.909  INFO 34242 --- [main] com.imooc.passbook.MerchantsApplication  : Starting MerchantsApplication using Java 16.0.1 on Yueyangs-MacBook-Pro.local with PID 34242 (/Users/yueyangwu/Projects/distributedPassbook/merchants/target/classes started by yueyangwu in /Users/yueyangwu/Projects/distributedPassbook/merchants)
+2021-09-06 23:41:17.916 DEBUG 34242 --- [main] com.imooc.passbook.MerchantsApplication  : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-06 23:41:17.919  INFO 34242 --- [main] com.imooc.passbook.MerchantsApplication  : No active profile set, falling back to default profiles: default
+2021-09-06 23:41:17.920 DEBUG 34242 --- [main] o.s.boot.SpringApplication               : Loading source class com.imooc.passbook.MerchantsApplication
+2021-09-06 23:41:17.977 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64591) op = 82
+2021-09-06 23:41:17.978 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64591) op = 80
+2021-09-06 23:41:17.981 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64591) op = 80
+2021-09-06 23:41:17.982 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(1)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@71f09807
+2021-09-06 23:41:17.982 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@71f09807
+2021-09-06 23:41:17.983 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@71f09807
+2021-09-06 23:41:17.983 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@71f09807
+2021-09-06 23:41:17.983 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@71f09807
+2021-09-06 23:41:17.984 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(1)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@71f09807
+2021-09-06 23:41:17.985 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64591) op = 84
+2021-09-06 23:41:17.985 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64591) op = 80
+2021-09-06 23:41:17.986 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64591) op = 80
+2021-09-06 23:41:17.987 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(1)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+2021-09-06 23:41:17.988 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  3, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2021-09-06 23:41:17.992 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.server.call                      : RMI TCP Connection(1)-127.0.0.1: [127.0.0.1] exception: 
+
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-06 23:41:17.994 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64591) op = 80
+2021-09-06 23:41:17.995 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] javax.management.remote.rmi              : [javax.management.remote.rmi.RMIConnectionImpl@12d7654d: connectionId=rmi://127.0.0.1  3] closing.
+2021-09-06 23:41:17.995 DEBUG 34242 --- [RMI TCP Connection(1)-127.0.0.1] javax.management.remote.rmi              : [javax.management.remote.rmi.RMIConnectionImpl@12d7654d: connectionId=rmi://127.0.0.1  3] closed.
+2021-09-06 23:41:18.013 DEBUG 34242 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2bd08376
+2021-09-06 23:41:18.055 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-09-06 23:41:18.091 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2021-09-06 23:41:18.294 DEBUG 34242 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/Users/yueyangwu/Projects/distributedPassbook/merchants/target/classes/com/imooc/passbook/controller/MerchantsController.class]
+2021-09-06 23:41:18.304 DEBUG 34242 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/Users/yueyangwu/Projects/distributedPassbook/merchants/target/classes/com/imooc/passbook/security/AuthCheckInterceptor.class]
+2021-09-06 23:41:18.311 DEBUG 34242 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/Users/yueyangwu/Projects/distributedPassbook/merchants/target/classes/com/imooc/passbook/service/impl/MerchantsServImpl.class]
+2021-09-06 23:41:18.993  INFO 34242 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-06 23:41:19.001 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2021-09-06 23:41:19.002 DEBUG 34242 --- [main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.imooc.passbook'. Automatic @Repository and @Entity scanning is enabled.
+2021-09-06 23:41:19.003 DEBUG 34242 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.imooc.passbook.
+2021-09-06 23:41:19.013 DEBUG 34242 --- [main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/Users/yueyangwu/Projects/distributedPassbook/merchants/target/classes/com/imooc/passbook/dao/MerchantsDao.class]
+2021-09-06 23:41:19.043 DEBUG 34242 --- [main] ssPathScanningCandidateComponentProvider : Identified candidate component class: file [/Users/yueyangwu/Projects/distributedPassbook/merchants/target/classes/com/imooc/passbook/service/impl/MerchantsServImpl.class]
+2021-09-06 23:41:19.051  INFO 34242 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2021-09-06 23:41:19.203 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2021-09-06 23:41:19.210 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2021-09-06 23:41:19.210 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2021-09-06 23:41:19.259 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-09-06 23:41:19.262 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2021-09-06 23:41:19.263 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-09-06 23:41:19.263 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2021-09-06 23:41:19.266 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-09-06 23:41:19.267 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-09-06 23:41:19.270 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2021-09-06 23:41:19.270 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2021-09-06 23:41:19.270 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2021-09-06 23:41:19.270 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2021-09-06 23:41:19.272 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-09-06 23:41:19.320 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2021-09-06 23:41:19.323 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2021-09-06 23:41:19.331 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.kafka.config.internalKafkaListenerAnnotationProcessor'
+2021-09-06 23:41:19.338 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2021-09-06 23:41:19.339 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2021-09-06 23:41:19.339 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2021-09-06 23:41:19.341 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2021-09-06 23:41:19.341 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2021-09-06 23:41:19.355 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'transactionAttributeSource'
+2021-09-06 23:41:19.359 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'transactionInterceptor'
+2021-09-06 23:41:19.360 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2021-09-06 23:41:19.368 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2021-09-06 23:41:19.368 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2021-09-06 23:41:19.396 DEBUG 34242 --- [main] o.s.u.c.s.UiApplicationContextUtils      : Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@61d34b4]
+2021-09-06 23:41:19.396 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2021-09-06 23:41:19.397 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2021-09-06 23:41:19.440 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2021-09-06 23:41:19.440 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2021-09-06 23:41:19.442 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2021-09-06 23:41:19.443 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2021-09-06 23:41:19.446 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-09-06 23:41:19.459 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2021-09-06 23:41:19.470 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-09-06 23:41:19.473 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2021-09-06 23:41:19.476 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-09-06 23:41:19.478 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2021-09-06 23:41:19.478 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2021-09-06 23:41:19.480 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2021-09-06 23:41:19.480 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-09-06 23:41:19.481 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2021-09-06 23:41:19.482 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2021-09-06 23:41:19.483 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-09-06 23:41:19.511 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorPageCustomizer'
+2021-09-06 23:41:19.511 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2021-09-06 23:41:19.512 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-09-06 23:41:19.514 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2021-09-06 23:41:19.514 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2021-09-06 23:41:19.515 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServlet'
+2021-09-06 23:41:19.515 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2021-09-06 23:41:19.517 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-09-06 23:41:19.524 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-09-06 23:41:19.540 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2021-09-06 23:41:19.541 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-09-06 23:41:19.543 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'multipartConfigElement'
+2021-09-06 23:41:19.543 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2021-09-06 23:41:19.543 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2021-09-06 23:41:19.547 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2021-09-06 23:41:19.552 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2021-09-06 23:41:19.638 DEBUG 34242 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: /Users/yueyangwu/.m2/repository/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar
+2021-09-06 23:41:19.639 DEBUG 34242 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: /Users/yueyangwu/.m2/repository/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar
+2021-09-06 23:41:19.639 DEBUG 34242 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-09-06 23:41:19.667  INFO 34242 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9527 (http)
+2021-09-06 23:41:19.813 DEBUG 34242 --- [main] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-09-06 23:41:19.813  INFO 34242 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1800 ms
+2021-09-06 23:41:19.817 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'characterEncodingFilter'
+2021-09-06 23:41:19.826 DEBUG 34242 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648
+2021-09-06 23:41:19.827 DEBUG 34242 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-09-06 23:41:19.849 DEBUG 34242 --- [main] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2021-09-06 23:41:19.856 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+2021-09-06 23:41:19.856 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+2021-09-06 23:41:19.857 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dataSource'
+2021-09-06 23:41:19.857 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2021-09-06 23:41:19.858 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2021-09-06 23:41:19.866 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2021-09-06 23:41:19.868 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@7ad041f3
+2021-09-06 23:41:19.889 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2021-09-06 23:41:19.893 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+2021-09-06 23:41:19.894 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2021-09-06 23:41:19.898 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'entityManagerFactory'
+2021-09-06 23:41:19.898 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2021-09-06 23:41:19.899 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2021-09-06 23:41:19.901 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2021-09-06 23:41:19.903 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+2021-09-06 23:41:19.903 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2021-09-06 23:41:19.903 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@42f33b5d'
+2021-09-06 23:41:19.905 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2021-09-06 23:41:19.909 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+2021-09-06 23:41:19.909 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2021-09-06 23:41:19.917 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2021-09-06 23:41:19.920 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jpaVendorAdapter'
+2021-09-06 23:41:19.987 DEBUG 34242 --- [main] org.jboss.logging                        : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2021-09-06 23:41:19.991 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+2021-09-06 23:41:19.993 DEBUG 34242 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+2021-09-06 23:41:20.001 DEBUG 34242 --- [main] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2021-09-06 23:41:20.001 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-09-06 23:41:20.004 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2021-09-06 23:41:20.004 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2021-09-06 23:41:20.004 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2021-09-06 23:41:20.004 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2021-09-06 23:41:20.004 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2021-09-06 23:41:20.004 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................30000
+2021-09-06 23:41:20.004 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2021-09-06 23:41:20.005 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2021-09-06 23:41:20.005 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2021-09-06 23:41:20.005 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2021-09-06 23:41:20.005 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"com.mysql.jdbc.Driver"
+2021-09-06 23:41:20.005 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2021-09-06 23:41:20.005 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2021-09-06 23:41:20.005 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2021-09-06 23:41:20.006 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................600000
+2021-09-06 23:41:20.006 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2021-09-06 23:41:20.006 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2021-09-06 23:41:20.006 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:mysql://127.0.0.1:3306/passbook?autoReconnect=true
+2021-09-06 23:41:20.006 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2021-09-06 23:41:20.007 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2021-09-06 23:41:20.007 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................1800000
+2021-09-06 23:41:20.007 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................10
+2021-09-06 23:41:20.007 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2021-09-06 23:41:20.007 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................none
+2021-09-06 23:41:20.007 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................10
+2021-09-06 23:41:20.008 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2021-09-06 23:41:20.008 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2021-09-06 23:41:20.008 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2021-09-06 23:41:20.008 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2021-09-06 23:41:20.008 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2021-09-06 23:41:20.009 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2021-09-06 23:41:20.009 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2021-09-06 23:41:20.009 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2021-09-06 23:41:20.009 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"root"
+2021-09-06 23:41:20.009 DEBUG 34242 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2021-09-06 23:41:20.009  INFO 34242 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-06 23:45:30.500  INFO 34306 --- [main] com.imooc.passbook.MerchantsApplication  : Starting MerchantsApplication using Java 16.0.1 on Yueyangs-MacBook-Pro.local with PID 34306 (/Users/yueyangwu/Projects/distributedPassbook/merchants/target/classes started by yueyangwu in /Users/yueyangwu/Projects/distributedPassbook/merchants)
+2021-09-06 23:45:30.504  INFO 34306 --- [main] com.imooc.passbook.MerchantsApplication  : No active profile set, falling back to default profiles: default
+2021-09-06 23:45:31.257  INFO 34306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-06 23:45:31.312  INFO 34306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-09-06 23:45:31.790  INFO 34306 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9527 (http)
+2021-09-06 23:45:31.800  INFO 34306 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-06 23:45:31.800  INFO 34306 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-06 23:45:31.898  INFO 34306 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-06 23:45:31.898  INFO 34306 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2021-09-06 23:45:32.025  INFO 34306 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-06 23:45:32.161  INFO 34306 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-06 23:45:32.212  INFO 34306 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-06 23:45:32.274  INFO 34306 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-06 23:45:32.436  INFO 34306 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-06 23:45:32.556  INFO 34306 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-09-06 23:45:33.016  INFO 34306 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-06 23:45:33.024  INFO 34306 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 23:45:33.719  INFO 34306 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9527 (http) with context path ''
+2021-09-06 23:45:33.730  INFO 34306 --- [main] com.imooc.passbook.MerchantsApplication  : Started MerchantsApplication in 3.867 seconds (JVM running for 4.806)
+2021-09-06 23:45:39.989  INFO 34306 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 23:45:39.993  INFO 34306 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-06 23:45:39.997  INFO 34306 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-06 23:46:02.072  INFO 34314 --- [main] c.i.passbook.service.MerchantsServTest   : Starting MerchantsServTest using Java 16.0.1 on Yueyangs-MacBook-Pro.local with PID 34314 (started by yueyangwu in /Users/yueyangwu/Projects/distributedPassbook/merchants)
+2021-09-06 23:46:02.076  INFO 34314 --- [main] c.i.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2021-09-06 23:46:02.661  INFO 34314 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-06 23:46:02.714  INFO 34314 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2021-09-06 23:46:03.231  INFO 34314 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-06 23:46:03.463  INFO 34314 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-06 23:46:03.551  INFO 34314 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-06 23:46:03.680  INFO 34314 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-06 23:46:03.828  INFO 34314 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-06 23:46:03.975  INFO 34314 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-09-06 23:46:04.533  INFO 34314 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-06 23:46:04.546  INFO 34314 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 23:46:05.278  INFO 34314 --- [main] c.i.passbook.service.MerchantsServTest   : Started MerchantsServTest in 3.937 seconds (JVM running for 5.501)
+2021-09-06 23:46:05.623  INFO 34314 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 23:46:05.625  INFO 34314 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-06 23:46:05.634  INFO 34314 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-06 23:55:53.377  INFO 34462 --- [main] com.imooc.passbook.MerchantsApplication  : Starting MerchantsApplication using Java 16.0.1 on Yueyangs-MacBook-Pro.local with PID 34462 (/Users/yueyangwu/Projects/distributedPassbook/merchants/target/test-classes started by yueyangwu in /Users/yueyangwu/Projects/distributedPassbook/merchants)
+2021-09-06 23:55:53.380  INFO 34462 --- [main] com.imooc.passbook.MerchantsApplication  : No active profile set, falling back to default profiles: default
+2021-09-06 23:55:54.045  INFO 34462 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-06 23:55:54.114  INFO 34462 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2021-09-06 23:55:54.615  INFO 34462 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9527 (http)
+2021-09-06 23:55:54.625  INFO 34462 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-06 23:55:54.626  INFO 34462 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-06 23:55:54.734  INFO 34462 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-06 23:55:54.734  INFO 34462 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1295 ms
+2021-09-06 23:55:54.870  INFO 34462 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-06 23:55:55.000  INFO 34462 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-06 23:55:55.046  INFO 34462 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-06 23:55:55.112  INFO 34462 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-06 23:55:55.255  INFO 34462 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-06 23:55:55.377  INFO 34462 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-09-06 23:55:55.852  INFO 34462 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-06 23:55:55.863  INFO 34462 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 23:55:56.241  INFO 34462 --- [main] com.imooc.passbook.conf.WebMvcConfig     : AddInterceptors: AuthCheckInterceptor
+2021-09-06 23:55:56.546  INFO 34462 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9527 (http) with context path ''
+2021-09-06 23:55:56.556  INFO 34462 --- [main] com.imooc.passbook.MerchantsApplication  : Started MerchantsApplication in 4.002 seconds (JVM running for 4.888)
+2021-09-06 23:56:50.648  INFO 34462 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 23:56:50.657  INFO 34462 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-06 23:56:50.664  INFO 34462 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

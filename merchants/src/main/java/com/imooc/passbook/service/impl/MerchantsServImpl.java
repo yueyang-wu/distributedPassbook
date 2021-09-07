@@ -62,7 +62,7 @@ public class MerchantsServImpl implements IMerchantsServ {
     public Response buildMerchantsInfoById(Integer id) {
         Response response = new Response();
 
-        Optional<Merchants> merchants = merchantsDao.findById(id);
+        Merchants merchants = merchantsDao.findById(id).orElse(null);
         if (merchants == null) {
             response.setErrorCode(ErrorCode.MERCHANTS_NOT_EXIST.getCode());
             response.setErrorMsg(ErrorCode.MERCHANTS_NOT_EXIST.getDesc());

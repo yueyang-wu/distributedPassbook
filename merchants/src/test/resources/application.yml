@@ -8,10 +8,12 @@ spring:
   application:
     name: ImoocMerchants #整体应用的名称
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/passbook?autoReconnect=true
+    url: jdbc:mysql://127.0.0.1:3306/passbook?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: yue364915113
     driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    open-in-view: false
   kafka:
     bootstrap-servers: 127.0.0.1:9092
     consumer:
@@ -24,6 +26,6 @@ server:
 
 logging:
   level:
-    root: debug
+    root: info
   file:
     name: imooc-merchants.log
