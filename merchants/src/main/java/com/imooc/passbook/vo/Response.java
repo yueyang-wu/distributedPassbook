@@ -4,8 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.NamedAttributeNode;
-
 /**
  * general response Object
  * 商户在平台执行HTTP请求，返回请求的响应

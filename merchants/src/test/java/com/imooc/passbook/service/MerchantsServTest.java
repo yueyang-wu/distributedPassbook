@@ -29,4 +29,9 @@ public class MerchantsServTest {
 
         System.out.println(JSON.toJSONString(merchantsServ.createMerchants(request)));
     }
+
+    @Test
+    public void testBuildMerchantsInfoById() {
+        System.out.println(JSON.toJSONString(merchantsServ.buildMerchantsInfoById(17)));
+    }
 }

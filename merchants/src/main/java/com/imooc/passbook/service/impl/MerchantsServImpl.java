@@ -1,5 +1,6 @@
 package com.imooc.passbook.service.impl;
 
+import com.imooc.passbook.MerchantsApplication;
 import com.imooc.passbook.constant.ErrorCode;
 import com.imooc.passbook.dao.MerchantsDao;
 import com.imooc.passbook.entity.Merchants;
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.Optional;
 
 /**
  * merchants service implementation
@@ -51,7 +53,17 @@ public class MerchantsServImpl implements IMerchantsServ {
 
     @Override
     public Response buildMerchantsInfoById(Integer id) {
-        return null;
+        Response response = new Response();
+
+        Optional<Merchants> merchants = merchantsDao.findById(id);
+        if (merchants == null) {
+            response.setErrorCode(ErrorCode.MERCHANTS_NOT_EXIST.getCode());
+            response.setErrorMsg(ErrorCode.MERCHANTS_NOT_EXIST.getDesc());
+        }
+
+        response.setData(merchants);
+
+        return response;
     }
 
     @Override

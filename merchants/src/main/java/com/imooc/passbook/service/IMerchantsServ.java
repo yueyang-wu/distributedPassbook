@@ -17,7 +17,7 @@ public interface IMerchantsServ {
     Response createMerchants(CreateMerchantsRequest request);
 
     /**
-     * build merchants by id
+     * get merchants info by id
      * @param id merchant id
      * @return {@link Response}
      */
