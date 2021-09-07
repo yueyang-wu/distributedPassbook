@@ -1,6 +1,8 @@
 package com.imooc.passbook.service.impl;
 
+import com.alibaba.fastjson.JSON;
 import com.imooc.passbook.MerchantsApplication;
+import com.imooc.passbook.constant.Constants;
 import com.imooc.passbook.constant.ErrorCode;
 import com.imooc.passbook.dao.MerchantsDao;
 import com.imooc.passbook.entity.Merchants;
@@ -11,6 +13,7 @@ import com.imooc.passbook.vo.PassTemplate;
 import com.imooc.passbook.vo.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -25,10 +28,14 @@ public class MerchantsServImpl implements IMerchantsServ {
 
     // Merchants database access object
     private final MerchantsDao merchantsDao;
+    // kafka
+    private KafkaTemplate<String, String> kafkaTemplate;
 
     @Autowired
-    public MerchantsServImpl(MerchantsDao merchantsDao) {
+    public MerchantsServImpl(MerchantsDao merchantsDao,
+                             KafkaTemplate<String, String> kafkaTemplate) {
         this.merchantsDao = merchantsDao;
+        this.kafkaTemplate = kafkaTemplate;
     }
 
     @Override
@@ -68,6 +75,17 @@ public class MerchantsServImpl implements IMerchantsServ {
 
     @Override
     public Response dropPassTemplate(PassTemplate template) {
-        return null;
+        Response response = new Response();
+        ErrorCode errorCode = template.validate(merchantsDao);
+
+        if (errorCode != ErrorCode.SUCCESS) {
+            response.setErrorCode(errorCode.getCode());
+            response.setErrorMsg(errorCode.getDesc());
+        } else {
+            String passTemplate = JSON.toJSONString(template);
+            kafkaTemplate.send(Constants.TEMPLATE_TOPIC, Constants.TEMPLATE_TOPIC, passTemplate);
+            log.info("LaunchPassTemplate: {}", passTemplate);
+        }
+        return response;
     }
 }
